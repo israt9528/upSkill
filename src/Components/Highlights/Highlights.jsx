@@ -66,7 +66,7 @@ const Highlights = () => {
         <div className="relative">
           <div className="rounded-2xl bg-linear-to-br from-indigo-100 to-sky-100 p-10 text-center">
             <img
-              src="https://illustrations.popsy.co/gray/online-learning.svg"
+              src="https://i.ibb.co.com/21LDXdzR/742ac873eaf672e6805c8514397a1ebd.jpg"
               alt="Learning illustration"
               className="mx-auto max-h-64"
             />
