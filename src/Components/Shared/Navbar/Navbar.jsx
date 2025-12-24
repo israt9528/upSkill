@@ -16,6 +16,12 @@ const Navbar = () => {
           Courses
         </NavLink>
       </li>
+      <li>
+        <NavLink className="font-medium">Articles</NavLink>
+      </li>
+      <li>
+        <NavLink className="font-medium">About Us</NavLink>
+      </li>
     </>
   );
 

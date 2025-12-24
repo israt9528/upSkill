@@ -4,9 +4,9 @@ import logo from "../../../assets/logo.jpeg";
 const Logo = () => {
   return (
     <div>
-      <a className="flex items-center gap-1 font-semibold text-[22px] bg-linear-to-r from-[#00CAFF] via-cyan-400 to-[#6C22A6] bg-clip-text text-transparent">
+      <a className="flex items-center gap-1 font-semibold text-[22px] bg-linear-to-r from-[#0C356A] via-[#39A7FF] to-[#793FDF] bg-clip-text text-transparent">
         <img src={logo} alt="" className="w-11 h-11 rounded-full" />
-        UpSkill
+        UpSkills
       </a>
     </div>
   );
