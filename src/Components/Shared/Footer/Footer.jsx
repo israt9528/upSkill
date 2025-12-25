@@ -8,7 +8,7 @@ import {
 import logo from "../../../assets/logo.jpeg";
 const Footer = () => {
   return (
-    <footer className="bg-primary text-white px-4 md:px-10 lg:px-20 py-12">
+    <footer className="bg-[#001F3F] text-white px-4 md:px-10 lg:px-20 py-12">
       <div className="grid grid-cols-1 md:grid-cols-3 gap-10 justify-items-center">
         <div className="space-y-4">
           <div className="flex items-center gap-1 text-2xl font-semibold">

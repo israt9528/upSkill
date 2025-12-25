@@ -14,7 +14,7 @@ const Navbar = () => {
           to="/"
           className={({ isActive }) =>
             `relative px-1 py-2 transition-all duration-300 hover:text-primary ${
-              isActive ? "text-primary font-semibold" : "text-base-content/70"
+              isActive ? "text-primary font-bold" : "text-base-content/70"
             }`
           }
         >
@@ -26,7 +26,7 @@ const Navbar = () => {
           to="/all-courses"
           className={({ isActive }) =>
             `relative px-1 py-2 transition-all duration-300 hover:text-primary ${
-              isActive ? "text-primary font-semibold" : "text-base-content/70"
+              isActive ? "text-primary font-bold" : "text-base-content/70"
             }`
           }
         >

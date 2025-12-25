@@ -196,8 +196,8 @@ const CourseDetails = () => {
 
           <aside className="w-full lg:w-96 order-1 lg:order-2">
             <div className="sticky top-10 space-y-6">
-              <div className="bg-slate-900 rounded-[2.5rem] p-8 text-white shadow-2xl relative overflow-hidden">
-                <div className="absolute -right-10 -top-10 h-40 w-40 bg-indigo-600/20 rounded-full blur-3xl"></div>
+              <div className="bg-primary rounded-[2.5rem] p-8 text-white shadow-2xl relative overflow-hidden">
+                <div className="absolute -right-10 -top-10 h-40 w-40 bg-indigo-600/20 rounded-full"></div>
 
                 <div className="relative z-10 space-y-6">
                   <div>
@@ -215,16 +215,16 @@ const CourseDetails = () => {
                   </div>
 
                   <div className="space-y-3">
-                    <button className="w-full py-4 bg-white text-slate-900 rounded-2xl font-black text-xs uppercase tracking-widest hover:bg-indigo-50 transition-all shadow-lg">
+                    <button className="w-full py-4 bg-white text-slate-900 rounded-2xl font-black text-xs uppercase hover:bg-indigo-50 transition-all shadow-lg">
                       Enroll Now
                     </button>
-                    <button className="w-full py-4 bg-slate-800 text-white rounded-2xl font-black text-xs uppercase tracking-widest hover:bg-slate-700 transition-all border border-slate-700">
+                    <button className="w-full py-4 bg-primary-content text-white rounded-2xl font-black text-xs uppercase transition-all border border-slate-700">
                       Add to Wishlist
                     </button>
                   </div>
 
                   <div className="pt-6 border-t border-slate-800 space-y-4">
-                    <p className="text-[10px] font-bold text-slate-400 uppercase tracking-widest text-center">
+                    <p className="text-[10px] font-bold text-slate-400 uppercase text-center">
                       Includes
                     </p>
                     <div className="grid grid-cols-2 gap-4">
@@ -245,15 +245,15 @@ const CourseDetails = () => {
                 </div>
               </div>
 
-              <div className="bg-indigo-600 rounded-[2.5rem] p-8 text-white shadow-xl shadow-indigo-200">
+              <div className="bg-secondary rounded-[2.5rem] p-8 text-white shadow-xl shadow-indigo-200">
                 <h4 className="text-xl font-black leading-tight mb-2">
                   Group Access?
                 </h4>
-                <p className="text-indigo-100 text-xs mb-6 leading-relaxed">
+                <p className="text-indigo-100 text-xs mb-6">
                   Train your entire team with this course. Special enterprise
                   pricing available.
                 </p>
-                <button className="w-full py-3 bg-indigo-600 text-white rounded-xl font-bold text-xs uppercase hover:bg-indigo-800 transition-colors">
+                <button className="w-full py-3 text-white rounded-xl font-bold text-xs uppercase bg-indigo-800 transition-colors">
                   Contact Sales
                 </button>
               </div>
