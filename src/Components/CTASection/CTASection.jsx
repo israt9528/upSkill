@@ -3,8 +3,7 @@ import { motion } from "framer-motion";
 
 const CTASection = () => {
   return (
-    <section className="relative px-4 md:px-10 lg:px-20 py-20 bg-gradient-to-r from-sky-500 to-indigo-600 rounded-3xl overflow-hidden">
-      {/* Animated Background Circles */}
+    <section className="relative px-4 md:px-10 lg:px-20 py-24 my-10 bg-linear-to-r from-primary-content via-primary/95 to-secondary rounded-3xl overflow-hidden">
       <motion.div
         className="absolute -top-20 -left-20 w-64 h-64 bg-white/10 rounded-full"
         animate={{ y: [0, 20, 0], x: [0, 20, 0] }}
@@ -17,14 +16,14 @@ const CTASection = () => {
       ></motion.div>
 
       <div className="relative max-w-4xl mx-auto text-center space-y-6">
-        {/* Animated Tagline */}
         <motion.h2
           className="text-3xl md:text-4xl font-bold text-white"
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
         >
-          Unlock Your Learning Potential Today
+          Unlock Your Learning{" "}
+          <span className="text-primary-content">Potential</span> Today
         </motion.h2>
 
         <motion.p
@@ -37,7 +36,6 @@ const CTASection = () => {
           your expertise as an instructor.
         </motion.p>
 
-        {/* Buttons */}
         <div className="flex flex-col sm:flex-row justify-center gap-4 mt-6">
           <motion.button
             className="btn btn-primary px-6 py-3 text-white"
